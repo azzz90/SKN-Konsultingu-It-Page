@@ -1,0 +1,53 @@
+.header {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 700px;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+
+  &__logo--blue {
+    color: $blue-color;
+    font-weight: bold;
+  }
+  &__inner {
+    background-color: rgba(0, 0, 0, 0.655);
+    min-height: 700px;
+    padding-top: 150px;
+  }
+  &__hello {
+    font-family: "Leckerli One", cursive;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 1.4rem;
+  }
+  &__title {
+    font-weight: bold;
+    span {
+      color: $blue-color;
+    }
+  }
+  &__subtitle {
+    font-weight: bold;
+  }
+  &__description {
+    font-family: "Lato", sans-serif;
+    line-height: 1.5;
+  }
+  img {
+    width: 90%;
+    margin-left: 60px;
+  }
+  &__wrap {
+    a {
+      border-radius: 18px;
+    }
+  }
+  &__left {
+    text-align: center;
+    @media (min-width: 990px) {
+      padding-top: 50px;
+      text-align: left;
+    }
+  }
+}

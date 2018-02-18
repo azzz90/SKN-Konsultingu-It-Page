@@ -1,0 +1,38 @@
+.about {
+  background-color: $secondary-blue;
+  text-align: center;
+  margin-top: -60px;
+  padding-top: 60px;
+  color: white;
+  @media (min-width: 770px) {
+    padding-top: 50px;
+    text-align: left;
+  }
+  &__title {
+    font-family: "Leckerli One", cursive;
+    font-size: 1.4rem;
+  }
+  &__subtitle {
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+  }
+  &__description {
+    font-family: "Lato", sans-serif;
+  }
+  &__right {
+    padding-top: 25px;
+    @media (min-width: 990px) {
+      padding-left: 90px;
+    }
+  }
+  //   &__description--center {
+  //     position: absolute;
+  //     top: 50%;
+  //     transform: translate(0, -50%);
+  //   }
+  a {
+    background-color: #3b4374;
+    border-radius: 18px;
+  }
+}
