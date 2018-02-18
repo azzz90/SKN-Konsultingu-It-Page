@@ -55,8 +55,8 @@ Teraz najwazniejsze folder node_modules jest bardzo duzy po to jest na roocie pl
 4.type in Command Line npm install
 5.In command line type gulp watch
 
-w razie problemow piszcie.
+W razie problemow sluze swoja pomoca, jesli ktos inny ma pomysl na nasz work flow i ma ochote na konfiguracje to nie widze problemu :)
 
-Jezeli ktos ma inny pomysl na naz workFlow to piszcie;
+
 
 Ps jestesmy tutaj zeby sie uczyc jezli ktos nie pracowal w gulpie sassie npmach itd to wlasnie w tym momencie jest najlepszy czas zeby zaczac wrazie zego sluze swoja pomoca.
