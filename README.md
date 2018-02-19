@@ -62,9 +62,9 @@ W razie problemow sluze swoja pomoca, jesli ktos inny ma pomysl na nasz work flo
 Ps jestesmy tutaj zeby sie uczyc jezli ktos nie pracowal w gulpie sassie npmach itd to wlasnie w tym momencie jest najlepszy czas zeby zaczac wrazie zego sluze swoja pomoca.
 
 -------------------------------------------------------------------------------
-Instalacja Node/NPM
+1. Instalacja Node/NPM
 
-1. Najłatwiej pobrać odpowiedni dla swojego systemu instalator ze strony https://nodejs.org/en/download/ - zdecydowanie lepiej jest wybrać ten z tabelki LTS. Po instalacji można sprawdzić czy wszystko poszło ok, wpisując w konsoli komendę node -v (konsola wyświetli zainstalowaną wersję node’a). Podobnie robimy z npm, tj. W konsoli wpisujemy npm -v (npm zainstalował się wraz z nodem).
+Najłatwiej pobrać odpowiedni dla swojego systemu instalator ze strony https://nodejs.org/en/download/ - zdecydowanie lepiej jest wybrać ten z tabelki LTS. Po instalacji można sprawdzić czy wszystko poszło ok, wpisując w konsoli komendę node -v (konsola wyświetli zainstalowaną wersję node’a). Podobnie robimy z npm, tj. W konsoli wpisujemy npm -v (npm zainstalował się wraz z nodem).
 
 2. Instalacja Gulpa/SASS
 
