@@ -60,3 +60,23 @@ W razie problemow sluze swoja pomoca, jesli ktos inny ma pomysl na nasz work flo
 
 
 Ps jestesmy tutaj zeby sie uczyc jezli ktos nie pracowal w gulpie sassie npmach itd to wlasnie w tym momencie jest najlepszy czas zeby zaczac wrazie zego sluze swoja pomoca.
+
+-------------------------------------------------------------------------------
+Instalacja Node/NPM
+
+Najłatwiej pobrać odpowiedni dla swojego systemu instalator ze strony https://nodejs.org/en/download/ - zdecydowanie lepiej jest wybrać ten z tabelki LTS. Po instalacji można sprawdzić czy wszystko poszło ok, wpisując w konsoli komendę node -v (konsola wyświetli zainstalowaną wersję node’a). Podobnie robimy z npm, tj. W konsoli wpisujemy npm -v (npm zainstalował się wraz z nodem).
+
+2. Instalacja Gulpa/SASS
+
+Zdanie wstępu na temat Gulpa - jest to task runner który pozwala nam korzystać z preprocesorów CSS (m.in. z SASSa na którym będziemy działać), minifikować pliki czy też odświeżać okno przeglądarki po każdej zmianie w kodzie (oczywiście jest to tylko ułamek możliwości) :) Co do instalacji to wykonujemy ją w konsoli za pomocą wcześniej zainstalowanego NPM’a. W Konsoli wpisujemy:
+
+Npm install - - global gulp-cli (dzięki temu możemy korzystać z gulpa w konsoli, między myślnikami nie powinno być spacji, wrzuciłem ją aby zapis był czytelniejszy. Powyższa instalacja jest instalacją globalną, wykonujemy ją tylko raz).
+
+Npm install  - - save-dev gulp (jest to instalacja lokalna, powinniśmy ją wykonać w folderze danego projektu)
+
+Npm install gulp-sass (tutaj instalujemy moduł sassa)
+
+3. Jak to wszystko uruchomić
+
+W naszym środowisku pracy Piotrek przygotował plik gulpfile.js który włączamy w następujący sposób:
+W konsoli wchodzimy do swojego folderu z projektem (w zależności od systemu są to różne komendy, w windowsie jest to chyba dir, w linux/macOS to cd. Informacje o tym są dostępne w internecie, ewentualnie służę pomocą na slacku/fb) po czym wpisujemy gulp watch - jeżeli wszystko wcześniej poszło oki tow konsoli zacznie się dziać magia po czym w naszej przeglądarce automatycznie otworzy się nowa zakładka na localhoście z przykładową stroną bootstrapa - to tyle, można kodzić ;)
