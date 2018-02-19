@@ -79,4 +79,4 @@ Npm install gulp-sass (tutaj instalujemy moduł sassa)
 3. Jak to wszystko uruchomić
 
 W naszym środowisku pracy Piotrek przygotował plik gulpfile.js który włączamy w następujący sposób:
-W konsoli wchodzimy do swojego folderu z projektem (w zależności od systemu są to różne komendy, w windowsie jest to chyba dir, w linux/macOS to cd. Informacje o tym są dostępne w internecie, ewentualnie służę pomocą na slacku/fb) po czym wpisujemy gulp watch - jeżeli wszystko wcześniej poszło oki tow konsoli zacznie się dziać magia po czym w naszej przeglądarce automatycznie otworzy się nowa zakładka na localhoście z przykładową stroną bootstrapa - to tyle, można kodzić ;)
+W konsoli wchodzimy do swojego folderu z projektem (w zależności od systemu są to różne komendy, w windowsie jest to chyba dir, w linux/macOS to cd. Informacje o tym są dostępne w internecie, ewentualnie służę pomocą na slacku/fb) po czym wpisujemy gulp watch - jeżeli wszystko wcześniej poszło oki to w konsoli zacznie się dziać magia po czym w naszej przeglądarce automatycznie otworzy się nowa zakładka na localhoście z przykładową stroną bootstrapa - to tyle, można kodzić ;)
