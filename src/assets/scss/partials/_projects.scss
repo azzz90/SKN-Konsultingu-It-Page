@@ -2,90 +2,66 @@ body {
   background-color: $bg-color;
 }
 
-.p-2 {
-  background-color: #14144b;
+.container {
+  margin-top: 150px;
   border: 20px solid white;
-  height: 350px;
-  margin-top: 200px;
-  width: 700px;
-  color: white;
+  min-height: 400px;
   position: relative;
-
+  max-width: 700px;
 }
-
 #projects_text {
   text-align: center;
   line-height: 150px;
 }
-
-.circle1{
-  position: relative;
-  margin-left: -120px;
-  margin-top: -120px;
-  height:200px;
-  width:200px;
-  border-radius:100px;
-  border:3px solid white;
-  background:grey;
+.box1 {
+  margin-top: -115px;
+  position: absolute;
+  left: -170px;
+  right: -170px;
+}
+.box2 {
+  margin-top: 260px;
+  margin-bottom: -100px;
+  position: absolute;
+  left: -170px;
+  right: -170px;
+}
+@media (max-width: 768px) {
+  .box1 {
+    position: relative;
+    left: 0;
+    right: 0;
+  }
+  .box2 {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: -130px;
+    position: relative;
+    left: 0;
+    right: 0;
+  }
+ .projects__title {
+   display: none;
+ }
 
 }
 
-.circle2{
-  position: relative;
-  height:200px;
-  width:200px;
-  margin-top: -200px;
-  margin-left: 225px;
-  border-radius:100px;
-  border:3px solid white;
-  background:grey;
-
+.projects__title {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 4rem;
+  color: white;
 }
-
-.circle3{
-  position: relative;
-  height:200px;
-  width:200px;
-  margin-left: 560px;
-  margin-top: -200px;
-  border-radius:100px;
-  border:3px solid white;
-  background:grey;
-
+.box {
+  margin: auto;
+  background: grey;
+  border: 2px solid white;
+  padding: 25px;
+  border-radius: 50%;
+  height: 200px;
+  max-width: 200px;
 }
-
-.circle4{
-  position: relative;
-  height:200px;
-  width:200px;
-  margin-left: -120px;
-  margin-top: -25px;
-  border-radius:100px;
-  border:3px solid white;
-  background:grey;
-
-}
-
-.circle5{
-  position: relative;
-  height:200px;
-  width:200px;
-  margin-left: 225px;
-  margin-top: -200px;
-  border-radius:100px;
-  border:3px solid white;
-  background:grey;
-
-}
-
-.circle6{
-  position: relative;
-  height:200px;
-  width:200px;
-  margin-left: 560px;
-  margin-top: -200px;
-  border-radius:100px;
-  border:3px solid white;
-  background:grey;
-
+.row {
 }
